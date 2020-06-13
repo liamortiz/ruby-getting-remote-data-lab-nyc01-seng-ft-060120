@@ -1,8 +1,8 @@
 # Write your code here
 class GetRequester
   
-  def initialize(URL)
-    self.URL = URL
+  def initialize(url)
+    self.URL = url
   end
   
   def get_response_body
