@@ -1,6 +1,6 @@
 # Write your code here
 class GetRequester
-  attr_reader :url
+  attr_accessor :url
   
   def initialize(url)
     self.url = url
