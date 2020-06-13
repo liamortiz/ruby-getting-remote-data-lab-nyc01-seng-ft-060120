@@ -2,6 +2,7 @@
 class GetRequester
   
   def initialize(URL)
+    uri = URI.parse(URL)
   end
   
   def get_response_body
