@@ -2,7 +2,6 @@
 class GetRequester
   
   def initialize(url)
-    self.URL = url
   end
 
 end
